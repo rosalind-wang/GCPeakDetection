@@ -10,7 +10,7 @@ Create the following subdirectories in the results folder:
 Also include in this package is code "readQTOF.m" to convert from XML file to CSV file. For examples of XML files (and the .D files they were converted from) see https://doi.org/10.25919/5b5e699817220
 
 MATLAB code from other sources included in this package: 
-* baseCorrALS.m : correcting baseline drift of data using asymmetric least square. 
+* baseCorrALS.m : correcting baseline drift of data using asymmetric least square. [2]
 * sgolay.m and sgolayfilt.m : Savitzky-Golay smoothing and fit written by Paul Kienzle and Pascal Dupuis released under GNU GPLv3
 
 
