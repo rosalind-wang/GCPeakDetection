@@ -197,7 +197,8 @@ for fn = 1 : Nfiles
         signalMZbc = signalMZ - baselineMZ';
         
         % check to see if the signal is greater than noise or not
-        if normaliseData == 2
+        %if normaliseData == 2
+        if ~isempty(sigThresholdNormFactor)
             sigAboveNoiseLogical = (signalMZbc > sigThresholdNorm);
         else
             sigAboveNoiseLogical = (signalMZbc > sigThreshold);
